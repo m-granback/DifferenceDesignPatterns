@@ -2,6 +2,12 @@ package abstraktFactory;
 
 import java.util.Scanner;
 
+/*
+Syfte: Att skapa familjer av relaterade eller beroende objekt utan att specificera deras konkreta klasser.
+Användning: När du vill att en klient ska kunna skapa objekt av olika typer som hör ihop.
+Exempel: En GUI-bibliotek som kan skapa olika typer av knappar och fönster beroende på operativsystemet (Windows, macOS, Linux).
+*/
+
 public class AFMain {
     public static void main(String[] args) {
 

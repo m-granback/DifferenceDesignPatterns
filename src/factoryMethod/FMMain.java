@@ -1,5 +1,10 @@
 package factoryMethod;
 
+/*
+Syfte: Att definiera en gränssnitt för att skapa ett objekt, men låta underklasser bestämma vilken klass som ska instansieras.
+Användning: När en klass inte kan förutse vilken typ av objekt den måste skapa.
+Exempel: En dokumenthanterare som kan skapa olika typer av dokument (Word, PDF, Excel) beroende på användarens val.
+ */
 public class FMMain {
     public static void main(String[] args) {
         Producer producerX = new ProducerX();
